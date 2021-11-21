@@ -17,6 +17,8 @@ const Menu = ({ items }) => {
     </article> 
   });
 
+
+  
   return (
     <div className="section-center">
       {renderItem}
