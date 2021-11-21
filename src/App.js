@@ -9,9 +9,21 @@ import items from './data';
 
 
 function App() {
+	const [ menuItems, setMenuItems ] = useState(items);
+  const [ categories, setCategories ] = useState([]);
+  console.log(menuItems);
+
 	
-	
-  return <h2>menu project setup</h2>;
+  return (
+    <section className="menu section">
+      <div className="title">
+        <h2>our menu</h2>
+        <div className="underline"></div>
+      </div>
+      <Categories />
+      <Menu items={menuItems} />
+    </section>
+  );
 }
 
 
