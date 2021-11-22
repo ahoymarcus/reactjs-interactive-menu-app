@@ -4,8 +4,8 @@ import React from 'react';
 
 const Categories = ({ categories, filterItems }) => {
 
-  const renderCategory = categories.map((category) => {
-    return <button className="filter-btn" onClick={() => filterItems(category.toLowerCase())} >{category}</button>
+  const renderCategory = categories.map((category, idx) => {
+    return <button key={idx} type="button" className="filter-btn" onClick={() => filterItems(category.toLowerCase())} >{category}</button>
   });
 
 

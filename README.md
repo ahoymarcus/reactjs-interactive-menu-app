@@ -1,12 +1,12 @@
-# Birthday Reminder - React-JS
+# React-JS Menu App
 
 <br />
 
-O projeto consome dados de um arquivo e renderiza os dados num cartão apresentando dados pessoais, especialmente idade e data de aniversário.
+Projeto que cria toda uma página web interativa que consome dados de um arquivo para renderizar um menu de restaurante.
 
 <br />
 
-**Tendo sido adicionado ao projeto a funcionalidade de selecionar apenas os dados de aniversariantes do dia.**
+Como funcionalidade destacada, junto à renderização dos itens do menu, são renderizados botões que controlam em tempo real a renderização do menu de acordo com uma coleção de categorias tipo: Breakfast, Lunch, Shakes, etc...
 
 <br />
 
@@ -20,15 +20,9 @@ Conjunto de projetos de frontend inspirados na apresentação do professor **Joh
 
 <br />
 
-### Imagem do card com Lista de Contatos:
+### Imagem da página principal do App mostrando um menu interativo:
 
-![Imagem do card com Lista de Contatos](/public/images/lista-de-contatos.png)
-
-<br />
-
-### Imagem da funcionalidade acrescida de Aniversariantes do Dia:
-
-![Imagem da funcionalidade acrescida de Aniversariantes do Dia](/public/images/aniversariantes-do-dia.png)
+![Imagem da página principal do App mostrando um menu interativo](/public/images/resultado-final-da-aplicação.png)
 
 <br />
 <br />
