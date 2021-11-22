@@ -22,7 +22,7 @@ Conjunto de projetos de frontend inspirados na apresentação do professor **Joh
 
 ### Imagem da página principal do App mostrando um menu interativo:
 
-![Imagem da página principal do App mostrando um menu interativo](/public/images/resultado-final-da-aplicação.png)
+![Imagem da página principal do App mostrando um menu interativo](/public/images/tela-final-da-aplicação.png)
 
 <br />
 <br />
