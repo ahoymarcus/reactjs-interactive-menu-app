@@ -9,14 +9,15 @@ import items from './data';
 
 
 // get unique values of category with Set
-const allCategories = new Set(items.map((item) => item.category));
+// use Spread operator to make into array
+const allCategories = ['All', ...new Set(items.map((item) => item.category))];
+console.log('allCategories variable');
 console.log(allCategories);
-
 
 
 function App() {
 	const [ menuItems, setMenuItems ] = useState(items);
-  const [ categories, setCategories ] = useState([]);
+  const [ categories, setCategories ] = useState(allCategories);
   console.log(menuItems);
 
 
@@ -38,7 +39,7 @@ function App() {
         <h2>our menu</h2>
         <div className="underline"></div>
       </div>
-      <Categories allCategories={allCategories} filterItems={filterItems} />
+      <Categories categories={categories} filterItems={filterItems} />
       <Menu items={menuItems} />
     </section>
   );
