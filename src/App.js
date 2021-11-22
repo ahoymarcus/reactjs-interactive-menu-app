@@ -8,10 +8,17 @@ import items from './data';
 
 
 
+// get unique values of category with Set
+const allCategories = new Set(items.map((item) => item.category));
+console.log(allCategories);
+
+
+
 function App() {
 	const [ menuItems, setMenuItems ] = useState(items);
   const [ categories, setCategories ] = useState([]);
   console.log(menuItems);
+
 
 
   const filterItems = (category) => {
@@ -31,7 +38,7 @@ function App() {
         <h2>our menu</h2>
         <div className="underline"></div>
       </div>
-      <Categories filterItems={filterItems} />
+      <Categories allCategories={allCategories} filterItems={filterItems} />
       <Menu items={menuItems} />
     </section>
   );
